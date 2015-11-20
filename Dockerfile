@@ -1,4 +1,4 @@
-FROM centos7:latest
+FROM centos7
 MAINTAINER wbassler23 <wbassler@linux.com>
 ADD epel.repo /etc/yum.repos.d/
 RUN yum -y install \
