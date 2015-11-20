@@ -5,6 +5,7 @@ Docker in Docker for Mesos Slaves. This container is used to Pull, Push and Buil
 ### Steps to build
 ```bash
 git clone https://github.com/geekbass/docker-inception.git
+cd docker-inception
 docker build -t docker-inception .
 docker run -it -v /var/run/docker.sock:/var/run/docker.sock docker-inception /bin/bash
 ```
