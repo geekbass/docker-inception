@@ -1,5 +1,5 @@
 ## Purpose
-Docker in Docker for Mesos Slaves. This container is used to Pull, Push and Build docker containers in Mesos Jenkins.
+Docker in Docker for Mesos Slaves. This container is used to Pull, Push and Build docker containers in Mesos Jenkins. This project was built for a talk that I gave.
 
 
 ### Steps to build
